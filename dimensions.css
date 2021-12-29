@@ -87,7 +87,7 @@ h1 {
     overflow: scroll;
   }
   
-    .area-box {
+  /* .area-box {
     flex-grow: 1;
     padding: 10%;
   }
@@ -100,5 +100,5 @@ h1 {
   .partywall-box {
     flex-grow: 1;
     padding: 10%;
-  }
+  } */
 }
