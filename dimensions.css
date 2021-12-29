@@ -79,26 +79,26 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .dimensions-box {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 50vh;
-    width: 30vw;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 80vh;
+    width: 40vw;
+    align-content: start;
     overflow: scroll;
   }
-  
+
   .area-box {
     flex-grow: 1;
-    padding: 0;
+    padding: 20%;
   }
 
   .heatloss-box {
     flex-grow: 1;
-    padding: 0;
+    padding: 20%;
   }
 
   .party-wall-box {
     flex-grow: 1;
-    padding: 0;
-  } 
+    padding: 20%;
+  }
 }
