@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='dimensions.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Permanent+Marker&family=Space+Mono&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <h1>Your Property's Dimensions.</h1>
+
+    <section class=dimensions-box>
+
+      <!-- Area box -->
+      <div class=area-box>
+
+        <p class=clickybutt id='areaCalc'>Calculate area</p>
+
+        <form id='areaForm'>
+          <input class=width type='number' name='width' id='width' min='0' step='any' placeholder="width in metres">
+          <input class=length type='number' name='length' id='length' min='0' step='any' placeholder="length in metres">
+        </form>
+
+        <label class=area-label for='areaOutput'>Area=</label>
+        <div class='areaOutput' name='areaOutput'></div>
+
+      </div>
+
+      <!-- Heatloss box -->
+      <div class=heatloss-box>
+
+        <p class='clickybutt' id='calculate'>Calculate heatloss perimeter</p>
+
+        <form id='heatlossForm'>
+          <input class='hlw' type='number' name='hlw1' id='hlw1' placeholder="in metres" min='0' step='any'>
+          <input class='hlw' type='number' name='hlw2' id='hlw2' placeholder="in metres" min='0' step='any'>
+          <input class='hlw' type='number' name='hlw3' id='hlw3' placeholder="in metres" min='0' step='any'>
+        </form>
+
+        <label class=heat-loss-label for='output'>Heatloss perimeter =</label>
+        <div class='hlOutput' name='output'></div>
+
+        <p class='clickybutt' id='moreHlw'>Add more heatloss walls</p>
+        <p class='clickybutt' id='removeWall'>Remove last wall</p>
+
+      </div>
+
+     <!-- Party wall box -->
+     <div class=party-wall-box>
+
+      <label class=pw-label for='pwOutput'>Party wall(s) =</label>
+      <div class='pwOutput' name='pwOutput'></div>
+
+     </div>
+
+    <p class='clickybutt' id='pwCalc'>Calculate party wall</p>
+
+   </section>
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src='dimensions.js'></script>
+
+  </body>
+
+</html>

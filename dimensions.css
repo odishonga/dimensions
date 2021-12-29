@@ -1,0 +1,77 @@
+body {
+  background: url(https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-family: 'Fredoka One';
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.clickybutt {
+  font-size: small;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.clickybutt:hover {
+  font-size: 100%;
+}
+
+#pwCalc:hover,
+#areaCalc:hover,
+#calculate:hover {
+  color: gold;
+}
+
+.hlw {
+  display: block;
+  margin: 0 auto;
+}
+
+.areaOutput,
+.hlOutput,
+.pwOutput {
+  display: block;
+  margin: auto;
+  width: 10%;
+  background-color: hsl(200, 50%, 70%);
+  padding:8px 15px;
+  border-radius:10px;
+  margin-top: 1%;
+  border: solid white 1px;
+  font-family: 'Fredoka One';
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.dimensions-box{
+  background: hsl(200, 50%, 50%);
+  border: solid black 2px;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 42.5%;
+  font-family: 'Fredoka One';
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.area-label,
+.area-box,
+.heatloss-label,
+.heatloss-box,
+.party-wall-label,
+.party-wall-box {
+  text-align: center;
+  padding: 20px
+}
