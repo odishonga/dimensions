@@ -90,15 +90,18 @@ h1 {
   .area-box {
     flex-grow: 1;
     padding: 20%;
+    font-size: 20px;
   }
 
   .heatloss-box {
     flex-grow: 1;
     padding: 20%;
+    font-size: 20px;
   }
 
   .party-wall-box {
     flex-grow: 1;
     padding: 20%;
+    font-size: 20px;
   }
 }
