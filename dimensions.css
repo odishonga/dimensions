@@ -84,6 +84,7 @@ h1 {
     height: 50vh;
     width: 30vw;
     justify-content: center;
+    align-content: center;
     overflow: scroll;
   }
   
