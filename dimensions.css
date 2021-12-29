@@ -87,18 +87,8 @@ h1 {
     overflow: scroll;
   }
 
-  .area-box {
-    flex-grow: 1;
-    padding: 20%;
-    font-size: 20px;
-  }
-
-  .heatloss-box {
-    flex-grow: 1;
-    padding: 20%;
-    font-size: 20px;
-  }
-
+  .area-box,   
+  .heatloss-box, 
   .party-wall-box {
     flex-grow: 1;
     padding: 20%;
