@@ -75,3 +75,15 @@ h1 {
   text-align: center;
   padding: 20px
 }
+
+@media only screen and (max-width: 1024px) {
+  .dimensions-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 30vw;
+    justify-content: center;
+    overflow: scroll;
+  }
+}
