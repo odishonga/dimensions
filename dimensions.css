@@ -84,22 +84,21 @@ h1 {
     height: 50vh;
     width: 30vw;
     justify-content: center;
-    align-content: center;
     overflow: scroll;
   }
   
-  /* .area-box {
+  .area-box {
     flex-grow: 1;
-    padding: 10%;
+    padding: 0;
   }
 
   .heatloss-box {
     flex-grow: 1;
-    padding: 10%;
+    padding: 0;
   }
 
   .partywall-box {
     flex-grow: 1;
-    padding: 10%;
-  } */
+    padding: 0;
+  } 
 }
