@@ -86,13 +86,22 @@ h1 {
     align-content: start;
     overflow: scroll;
     font-size: 1.2rem;
-    margin-left: 25%;
+    margin: 0 auto;
+    gap: 5%;
+  }
+
+  body {
+    background-size: cover;
   }
 
   .area-box,   
   .heatloss-box, 
   .party-wall-box {
-    height: 33%;
-    padding: 20%;
+    height: 100%;
+  }
+
+  .area-box,   
+  .heatloss-box {
+    border-bottom: 10px solid white;
   }
 }
