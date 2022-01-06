@@ -92,6 +92,7 @@ h1 {
 
   body {
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .area-box,   
